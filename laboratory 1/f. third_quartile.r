@@ -9,6 +9,10 @@ all <- summary(vec)
 print("The Summary is: ")
 print(all)
 
+<<<<<<< HEAD
 #* output third quarter
+=======
+#* output only third quarter
+>>>>>>> 0222f0f0672c53caff967bb6953493e5fd62aa9f
 third <- quantile(vec, prob = c(.75))
 print(third)
