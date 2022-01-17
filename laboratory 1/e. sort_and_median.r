@@ -4,10 +4,10 @@ print("The Vector is: ")
 print(vec)
 
 # ! Sort and find the median
-vec_sorted <- sort(vec)
+vec <- sort(vec)
 print("Sorted Vector: ")
-print(vec_sorted)
+print(vec)
 
-med <- median(vec_sorted)
+med <- median(vec)
 print("Median: ")
 print(med)

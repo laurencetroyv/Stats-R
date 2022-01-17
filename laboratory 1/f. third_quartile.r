@@ -9,6 +9,6 @@ all <- summary(vec)
 print("The Summary is: ")
 print(all)
 
-#* output first, second, third quarter
+#* output third quarter
 third <- quantile(vec, prob = c(.75))
 print(third)
