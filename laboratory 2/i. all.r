@@ -1,15 +1,15 @@
-# ! Create a histogram for the variable stack.loss
-histogram <- hist(stack.loss)
-print(histogram)
+# # # ! Create a histogram for the variable stack.loss
+# # histogram <- hist(stack.loss)
+# # print(histogram)
 
-# ! Create a boxplot for the variable stack.loss.
-plot <- boxplot(stack.loss)
-print(plot)
+# # # ! Create a boxplot for the variable stack.loss.
+# # plot <- boxplot(stack.loss)
+# # print(plot)
 
-# ! Create a normal probability plot for the variable stack.loss.
-data <- stack.loss
-qqnorm(data)
-qqline(data)
+# # ! Create a normal probability plot for the variable stack.loss.
+# data <- stack.loss
+# qqnorm(data)
+# qqline(data)
 
 # ! delegation of four students is selected each year from a University to attend # nolint
 # ! the National Student Association's annual meeting.
