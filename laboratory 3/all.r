@@ -8,89 +8,12 @@
 # ! is estimated to be 0.3. Find the probability that the tenth student
 # ! randomly interviewed of the given university is the fifth one to own a
 # ! laptop. Ans. approximately 0.051
-# x <- 5
-# size <- 10
-# prob <- 0.3
-# print("dnbinomail")
-# print(dnbinom(x, size, prob, log = TRUE))
-# print(dnbinom(x, size, prob, log = FALSE))
-# print(dnbinom(size, x, prob, log = TRUE))
-# print(dnbinom(size, x, prob, log = FALSE))
-# print(dnbinom(prob, x, size, log = FALSE))
-# print(dnbinom(prob, x, size, log = TRUE))
-# print(dnbinom(prob, size, x, log = FALSE))
-# print(dnbinom(prob, size, x, log = TRUE))
-# print("pnbinomail")
-# print(pnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("qnbinomail")
-# print(qnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("rnbinomail")
-# print(rnbinom(x, size, prob))
-# print(rnbinom(x, size, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, size, x))
-# print(rnbinom(prob, size, x))
+# *
 
 # ! Find the probability that a person tossing 3 coins will get either all
 # ! heads or all tails for the second time on the fifth toss. Ans. approxi-
 # ! mately 0.105
-# x <- 3
-# size <- 5
-# prob <- 2
-# print("dnbinomail")
-# print(dnbinom(x, size, prob, log = TRUE))
-# print(dnbinom(x, size, prob, log = FALSE))
-# print(dnbinom(size, x, prob, log = TRUE))
-# print(dnbinom(size, x, prob, log = FALSE))
-# print(dnbinom(prob, x, size, log = FALSE))
-# print(dnbinom(prob, x, size, log = TRUE))
-# print(dnbinom(prob, size, x, log = FALSE))
-# print(dnbinom(prob, size, x, log = TRUE))
-# print("pnbinomail")
-# print(pnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("qnbinomail")
-# print(qnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("rnbinomail")
-# print(rnbinom(x, size, prob))
-# print(rnbinom(x, size, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, size, x))
-# print(rnbinom(prob, size, x))
-
+# *
 
 # ! What is the probability that a waitress will refuse to serve alcoholic
 # ! beverages to at most 2 minors if she randomly checks the I.D.'s of 6
@@ -108,42 +31,4 @@
 # ! dissatisfied with the service. If this claim is true, what is the probability # nolint
 # ! that in a random sample of 25 customers, at least 23 are satisfied? Ans.
 # ! approximately 0.9620
-# x <- 23
-# size <- 25
-# prob <- .03
-# print("dnbinomail")
-# print(dnbinom(x, size, prob, log = TRUE))
-# print(dnbinom(x, size, prob, log = FALSE))
-# print(dnbinom(size, x, prob, log = TRUE))
-# print(dnbinom(size, x, prob, log = FALSE))
-# print(dnbinom(prob, x, size, log = FALSE))
-# print(dnbinom(prob, x, size, log = TRUE))
-# print(dnbinom(prob, size, x, log = FALSE))
-# print(dnbinom(prob, size, x, log = TRUE))
-# print("pnbinomail")
-# print(pnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(pnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(pnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("qnbinomail")
-# print(qnbinom(x, size, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(x, size, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(size, x, prob, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, x, size, lower.tail = TRUE, log.p = TRUE))
-# print(qnbinom(prob, size, x, lower.tail = FALSE, log.p = FALSE))
-# print(qnbinom(prob, size, x, lower.tail = TRUE, log.p = TRUE))
-# print("rnbinomail")
-# print(rnbinom(x, size, prob))
-# print(rnbinom(x, size, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(size, x, prob))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, x, size))
-# print(rnbinom(prob, size, x))
-# print(rnbinom(prob, size, x))
+# *
