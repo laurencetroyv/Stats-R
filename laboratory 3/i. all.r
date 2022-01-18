@@ -21,8 +21,8 @@ formula_2 <- dnbinom(size - student, student, prob)
 print(formula_2)
 
 # ! Find the probability that a person tossing 3 coins will get either all
-# ! heads or all tails for the second time on the fifth toss. Ans. approxi-
-# ! mately 0.105
+# ! heads or all tails for the second time on the fifth toss.
+# ! Ans. approximately 0.105
 coins <- 3
 toss <- 5
 prob <- 0.25
@@ -52,9 +52,9 @@ formula_5 <- dbinom(experience, applicants, percent - prob)
 print(formula_5)
 
 # ! The manager of a restaurant claims that only 3% of the customers are
-# ! dissatisfied with the service. If this claim is true, what is the probability # nolint
-# ! that in a random sample of 25 customers, at least 23 are satisfied? Ans.
-# ! approximately 0.9620
+# ! dissatisfied with the service. If this claim is true, what is the
+# ! probability that in a random sample of 25 customers, at least 23 are
+# ! satisfied? Ans. approximately 0.9620
 customer <- 25
 satisfied <- 23
 prob <- 0.03
